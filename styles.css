@@ -1,3 +1,57 @@
 body {
-	background: blue;
+	background-image: url(sumulongWeb-Images/outside.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img {
+	max-height: 300px;
+	width: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+table {
+	max-width: 600px;
+	min-width: 400px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+
+}
+
+html {
+	color: white;
+}
+
+.border {
+	max-width: 700px;
+	background-color: lightblue;
+	border-radius: 25px 50px;
+	padding: 20px;
+	border: 2px solid green;
+	color: black;
+	opacity: 0.6;
+}
+
+h3 {
+	text-align: center;
+	font-family: cursive;
+}
+
+ol {
+	max-width: 650px;
+	margin-bottom: 50px;
+	font-family: Comic Sans MS;
+}
+
+#ps {
+	max-width: 1000px;
+	font-family: Courier New;
+	font-size: 9px;
+}
+
+
+:visited {
+	color: yellow;
 }
