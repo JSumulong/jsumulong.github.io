@@ -1,3 +1,7 @@
+html {
+	color: white;
+}
+
 body {
 	background-image: url(SumulongWeb-Images/outside1.jpg);
 	background-size: cover;
@@ -19,10 +23,6 @@ table {
 	margin-left: 50px;
 	margin-bottom: 50px;
 
-}
-
-html {
-	color: white;
 }
 
 .border {
@@ -55,4 +55,17 @@ ol {
 
 :visited {
 	color: yellow;
+}
+
+@media (max-width: 700px) {
+	img {
+		max-height: 100px;
+		max-width: auto;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 18px;
+	}
 }
