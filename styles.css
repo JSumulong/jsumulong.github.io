@@ -8,3 +8,12 @@
 	border-radius: 20px;
 	display: none;
 }
+
+body {
+	background-image: url("images/245H.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-attachment: fixed;
+
+}
