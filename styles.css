@@ -1,11 +1,12 @@
 #nav {
-	border: solid 1px black;
-	width: 30%;
+	/*border: solid 1px black;*/
+	width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin: 0;
 	background-color: yellow;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	display: none;
 }
 
