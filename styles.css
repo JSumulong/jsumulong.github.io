@@ -18,3 +18,18 @@ body {
 	background-attachment: fixed;
 
 }
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: lightgreen;
+    }
+    #media {
+    	color: orange;
+    }
+
+    #nav {
+    	font-size: 28px;
+    }
+
+}
