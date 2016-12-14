@@ -1,12 +1,14 @@
-#nav {
-	/*border: solid 1px black;*/
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+#construction {
 	width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin: 0;
 	background-color: yellow;
-	/*border-radius: 20px;*/
 	display: none;
 }
 
@@ -14,20 +16,23 @@ body {
 	background-image: url("https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-position: center;*/
 	background-attachment: fixed;
 
 }
 
-.general-container {
-	float: left;
-	width: 15%;
-	max-height: 20%;
-	background-color: orange;
-	opacity: .90;
-	border-radius: 10px;
-	padding: 10px;
-	text-align: center;
+.heading-title {
+	margin-left: 40px;
+	font-size: 30px;
+
+}
+
+.heading-container {
+	width: 100%;
+	max-height: 10%;
+	background-color: black;
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
 }
 
 @media screen and (max-width: 700px) {

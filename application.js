@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	console.log("top");
-	$("#nav").delay(700).fadeIn('1000');
+	$("#construction").delay(700).fadeIn('1000');
 	test();
 	console.log("bottom");
 });
 	
 function test() {
-	$("#nav").on('click', function(event) {
+	$("#construction").on('click', function(event) {
 		$(this).fadeOut('slow');
 	});
 }
