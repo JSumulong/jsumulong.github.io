@@ -19,6 +19,17 @@ body {
 
 }
 
+.general-container {
+	float: left;
+	width: 15%;
+	max-height: 20%;
+	background-color: orange;
+	opacity: .90;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
 @media screen and (max-width: 700px) {
 
     body {
