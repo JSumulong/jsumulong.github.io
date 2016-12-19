@@ -35,6 +35,19 @@ body {
 	color: white;
 }
 
+#about-me-tab {
+	/*display: none;*/
+	background-color: grey;
+	opacity; .85;
+	max-width: 40%;
+	height: auto;
+}
+
+#projects-tab {
+	display: none;
+	max-width: 40%;
+}
+
 @media screen and (max-width: 700px) {
 
     body {
