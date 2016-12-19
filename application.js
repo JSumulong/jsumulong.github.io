@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$("#construction").delay(700).fadeIn('1000');
 	test();
-	aboutMe();
-	projects();
+	// aboutMe();
+	// projects();
 });
 	
 function test() {
