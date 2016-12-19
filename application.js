@@ -13,12 +13,14 @@ function test() {
 
 function aboutMe() {
 	$("#about-me-heading").on('click', function(event) {
+		$('#projects-tab').css("display", "none");
 		$('#about-me-tab').toggle();
 	})
 }
 
 function projects() {
 	$("#projects-heading").on('click', function(event) {
+		$("#about-me-tab").css("display", "none");
 		$("#projects-tab").toggle();
 	})
 }
