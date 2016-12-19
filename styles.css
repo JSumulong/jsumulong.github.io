@@ -35,6 +35,34 @@ body {
 	color: white;
 }
 
+#about-me-tab {
+	display: none;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	max-width: 40%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border: 2px solid rgb(173, 204, 204);
+	box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;
+}
+
+#projects-tab {
+	display: none;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	max-width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border: 2px solid rgb(173, 204, 204);
+	box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;
+}
+
 @media screen and (max-width: 700px) {
 
     body {
