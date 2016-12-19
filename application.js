@@ -2,6 +2,7 @@ $(document).ready(function() {
 	$("#construction").delay(700).fadeIn('1000');
 	test();
 	aboutMe();
+	projects();
 });
 	
 function test() {
@@ -13,5 +14,11 @@ function test() {
 function aboutMe() {
 	$("#about-me-heading").on('click', function(event) {
 		$('#about-me-tab').toggle();
+	})
+}
+
+function projects() {
+	$("#projects-heading").on('click', function(event) {
+		$("#projects-tab").toggle();
 	})
 }
