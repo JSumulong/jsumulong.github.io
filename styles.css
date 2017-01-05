@@ -1,5 +1,7 @@
 html {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Rock Salt', cursive;*/
+	font-family: 'Special Elite', cursive;
 }
 
 #construction {
@@ -13,40 +15,88 @@ html {
 }
 
 body {
-	background-image: url("https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");
-	background-size: cover;
+	/*background-image: url("https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");*/
+/*	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	background-color: whitesmoke;
 
 }
 
-.heading-title {
-	margin-left: 40px;
-	font-size: 30px;
+#main-container {
+	display: none;
+	background-color: black;
+	padding: 30px;
+	color: white;
+	height: 100%;
+	/*padding-bottom: 100%;*/
+}
 
+html body {
+	height: 100%;
+}
+
+#heading-links {
+	text-align: center;
+}
+
+#heading-links span {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+#heading-links {
+	margin-bottom: 5%;
+}
+
+.sub-heading {
+	font-size: 30px;
+	margin: 1.5%;
+}
+
+#top-heading {
+	text-align: center;
+	width: 100%;
+	font-family: 'Average', serif;
+	margin-bottom: 0;
+}
+
+.heading-link {
+	text-decoration: none;
+	color: black;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
 }
 
 .heading-container {
 	width: 100%;
 	max-height: 10%;
-	background-color: black;
-	border-radius: 5px;
+	/*background-color: whitesmoke;*/
 	padding: 2px;
-	color: white;
+	color: black;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#projects-container {
+	background-color: ;
 }
 
 #about-me-tab {
 	display: none;
-	background-color: white;
+	/*background-color: white;*/
 	font-size: 20px;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 	max-width: 40%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
 	padding: 20px;
-	border: 2px solid rgb(173, 204, 204);
-	box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;
+	/*border: 2px solid rgb(173, 204, 204);*/
+	/*box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;*/
 }
 
 #projects-tab {
