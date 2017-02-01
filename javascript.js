@@ -1,6 +1,9 @@
-function toggleActive() {
-
+function ToggleActive() {
+	this.classList.toggle('flex-active');
 }
 
-const flexItems = document.getElementByClass('flex');
-flexItems.forEach(item => item.addEventListener('click', toggleActive));
+const flexItems = document.querySelectorAll('.flex');
+
+flexItems.forEach(function(item) {
+	item.addEventListener('click', ToggleActive);
+})
