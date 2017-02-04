@@ -10,16 +10,16 @@ html {
 }
 
 html body {
-	height: 100%;
 	background-color: whitesmoke;
 }
 
 #main-container {
 	display: none;
+	/*visibility: hidden;*/
 	background-color: black;
-	padding: 30px;
+	/*padding: 30px;*/
 	color: white;
-	height: 100%;
+	/*height: 100%;*/
 }
 
 .heading-container {
@@ -68,8 +68,6 @@ html body {
 	color: white;
 	border-top: solid whitesmoke 8px;
 	border-bottom: solid whitesmoke 8px;
-	/*transition: 2s;*/
-	/*transition-timing-function: cubic-bezier(0.49, -0.11, 0.29, 1.24);*/
 }
 
 .flex-inner-title {
@@ -88,10 +86,6 @@ html body {
 
 .flex-inner-body {
 	font-family: 'Average', serif;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2.5%;
-	border-radius: 2px;
 	color: black;
 	visibility: hidden;
 	font-size: 25px;
@@ -100,6 +94,10 @@ html body {
 
 .flex1.flex-active .flex-inner-body {
 	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+	border-radius: 2px;
 	background-color: whitesmoke;
 	align-items: center;
 	visibility: visible;
@@ -173,42 +171,6 @@ html body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: none;
-}
-/*
-.sub-heading {
-	font-size: 30px;
-	margin: 1.5%;
-}
-
-.link {
-	text-decoration: none;
-	color: white;
-}
-
-#projects-container {
-	background-color: ;
-}
-
-#about-me-tab {
-	display: none;
-	font-size: 20px;
-	max-width: 40%;
-	height: auto;
-	padding: 20px;
-}
-
-#projects-tab {
-	display: none;
-	background-color: white;
-	font-size: 20px;
-	border-radius: 5px;
-	max-width: 70%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	border: 2px solid rgb(173, 204, 204);
-	box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;
 }
 
 @media screen and (max-width: 700px) {
