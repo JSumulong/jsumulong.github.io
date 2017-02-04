@@ -13,15 +13,6 @@ html body {
 	background-color: whitesmoke;
 }
 
-#main-container {
-	display: none;
-	/*visibility: hidden;*/
-	background-color: black;
-	/*padding: 30px;*/
-	color: white;
-	/*height: 100%;*/
-}
-
 .heading-container {
 	width: 100%;
 	max-height: 10%;
@@ -88,8 +79,21 @@ html body {
 	font-family: 'Average', serif;
 	color: black;
 	visibility: hidden;
-	font-size: 25px;
+	font-size: 18px;
 	opacity: 0;
+}
+
+.flex1 {
+	background-image: url('https://images.unsplash.com/photo-1437419764061-2473afe69fc2?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: 1.3s;
+	transition-timing-function: cubic-bezier(0.49, -0.11, 0.29, 1.24);
+}
+
+.flex-active.flex1 {
+	height: 550px;
 }
 
 .flex1.flex-active .flex-inner-body {
@@ -106,29 +110,6 @@ html body {
 	transition-delay: 0.8s;
 }
 
-.flex1 {
-	background-image: url('https://images.unsplash.com/photo-1437419764061-2473afe69fc2?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	transition: 1.3s;
-	transition-timing-function: cubic-bezier(0.49, -0.11, 0.29, 1.24);
-}
-
-.flex1.flex-active .flex-inner-body {
-	width: 50%;
-	background-color: whitesmoke;
-	align-items: center;
-	visibility: visible;
-	opacity: 1;
-	transition: opacity 1.5s;
-	transition-delay: 0.8s;
-}
-
-.flex-active.flex1 {
-	height: 750px;
-}
-
 .flex2 {
 	background-image: url('https://images.unsplash.com/photo-1479669732031-affb2ce2d265?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=');
 	background-size: cover;
@@ -143,6 +124,20 @@ html body {
 	height: 1100px;
 }
 
+.flex2.flex-active .flex-inner-body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+	border-radius: 2px;
+	background-color: whitesmoke;
+	align-items: center;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1.5s;
+	transition-delay: 0.8s;
+}
+
 .flex3 {
 	background-image: url('https://images.unsplash.com/photo-1472566316349-bce77aa2a778?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=');
 	background-size: cover;
@@ -151,6 +146,24 @@ html body {
 	align-items: center;
 	transition: 1.3s;
 	transition-timing-function: cubic-bezier(0.49, -0.11, 0.29, 1.24);
+}
+
+.flex-active.flex3 {
+	height: 1000px;
+}
+
+.flex3.flex-active .flex-inner-body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+	border-radius: 2px;
+	background-color: whitesmoke;
+	align-items: center;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1.5s;
+	transition-delay: 0.8s;
 }
 
 .flex4 {
