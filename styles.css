@@ -149,7 +149,7 @@ html body {
 }
 
 .flex-active.flex3 {
-	height: 1000px;
+	height: 1100px;
 }
 
 .flex3.flex-active .flex-inner-body {
@@ -174,6 +174,24 @@ html body {
 	align-items: center;
 	transition: 1.3s;
 	transition-timing-function: cubic-bezier(0.49, -0.11, 0.29, 1.24);
+}
+
+.flex-active.flex4 {
+	height: 1100px;
+}
+
+.flex4.flex-active .flex-inner-body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+	border-radius: 2px;
+	background-color: whitesmoke;
+	align-items: center;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1.5s;
+	transition-delay: 0.8s;
 }
 
 .beneath-flex {
