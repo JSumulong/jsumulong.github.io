@@ -1,96 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jon Sumulong | Web Developer</title>
-	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="jquery.js"></script>
+	<title></title>
 </head>
 <body>
-	<div class="container">
-		<div class="container heading-container">
-				<h2>Jon Sumulong | Web Developer</h2>
-			<div class="container container-links">
-				<span> <a class="heading-link" href="https://github.com/JSumulong">GitHub</a></span>
-				<span>|</span>
-				<span> <a class="heading-link" href="https://www.linkedin.com/in/jsumulong">LinkedIn</a></span>
-				<span>|</span>
-				<span><a class="heading-link" href="mailto:sumulong.jon@gmail.com">Email</a></span>
+	<nav class="navbar navbar-fixed-top navbar-custom">
+		<div class="conatiner-fluid">
+			<ul class="navbar-nav nav">
+				<li><a id="header-aboutMe">About Me</a></li>
+				<li><a id="header-projects">Projects</a></li>
+				<li><a id="header-connect">Connect</a></li>
+				<li><a id="header-resources">Resources</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div id="container-one">
+			<h1>Jon Sumulong | Web Developer</h1>
+		</div>
+		<div id="container-two">
+			<h1>ABOUT ME</h1> <br>
+			<div class="div-container-65">
+				<p>I'm a Web Developer with a passion for learning. I get excited about new technology, programming, collaborating with others, cool tutorials, and listening to different perspectives. When I'm not coding, I enjoy playing racquetball and making calzones. I'm currently looking for new opportunities as a web developer and enjoying the opportunity to teach myself more about programming.</p> <br>
+				<p>Feel free to contact me: sumulong.jon@gmail.com</p>
 			</div>
 		</div>
-		<div class="flex-container">
-			<div class="flex flex1">
-				<div class="flex-inner-title">
-					<h3>About Me</h3>
+		<div id="container-three">
+			<h1>Projects</h1>
+			<div class="inner-flex">
+				<div class="flex-item flex-item-1">
+					<div class="overlay">
+						<a href="https://github.com/JSumulong/Congo_Directory"></a>
+						<h2>Congo Directory</h2>
+						<p>This is a Rails project that will be used as a public directory for businesses in the Democratic Republic of Congo. The goal is to serve the community by providing business owners with a free opportunity to gain a greater online presence.</p>
+					</div>
 				</div>
-				<div class="flex-inner-body">
-					<p>I'm a Web Developer with a passion for learning. I get excited about new technology, programming, collaborating with creative people, thorough tutorials, movies, history, listening to different perspectives, and all things intellectually stimulating. I'm currently looking for new opportunities as a web developer and enjoying the opportunity to teach myself more about programming. </p>
-					<p>Feel free to contact me: sumulong.jon@gmail.com</p>
+				<div class="flex-item flex-item-2">
+					<div class="overlay">
+						<a href="https://github.com/JSumulong/totem-front-end"></a>
+						<h2>Totem</h2>
+						<p>Project Totem is a native Android application that allows users to find other users in augmented reality. This project was designed to allow the contributing members an opportunity to learn new technology at a rapid pace under the pressure of an eight day time constraint and with the expectation of presenting a working demo during the 2016 Coyotes graduation ceremony.</p>
+					</div>
 				</div>
-			</div>
-			<div class="flex flex2">
-				<div class="flex-inner-title">
-					<h3>Projects</h3>
-				</div>
-				<div class="flex-inner-body">
-					<h4 class="project-title">Totem</h4>
-					<p>Project Totem is a native Android application that allows users to find other users in augmented reality. This project was designed to allow the contributing members an opportunity to learn new technology at a rapid pace under the pressure of an eight day time constraint and with the expectation of presenting a working demo during the 2016 Coyotes graduation ceremony. My responsibility was to learn enough about the Android Studio dev environment, Java, and XML to create the necessary native views and behaviors for the app. I also paired with another student dev to research and develop the client side web socket necessary for the app. </p>
-
-					<p>The front end of Project Totem requires a connection to the web socket server, which can be viewed <a href="https://github.com/JSumulong/totem-ws-server">here</a>. The web socket server is the back end of the project and has recently been deployed on Heroku using Node.js.</p>
-
-					<h4 class="project-title">Remindr</h4>
-					<p>This is a web app that allows users to store a list of contacts and schedule reminders to be sent to a contact or a group of contacts on one's contact list via text messages. The reminders may be recurring and users can specify the number of times and frequency at which the reminder can be sent.</p>
-
-					<p>Remindr was built over a two and a half day sprint according to the specifications of an instructor playing the role of a client. I was responsible for building the user model and controller, applying BCrypt password encryption, developing the contacts controller and views, and implementing the Heroku Scheduler to scrape the database for current reminders to be sent.</p>
-
-					<img style="width: 90%" src="https://lh3.googleusercontent.com/E4nboFYKJ6yAM1dR_9G5LnrHiuNjz5j98JJ05BHHL-NB-AsXhjAYzomuROErwbZCPga9aiEDot3qjJpOMq0wDRqZgnclKi5vK6clTC9nfVzgoQzNK-mb3E9U4DndQOzhqyk92iiA3_Lm9xhUX9DH5G7qnd6x_hFUM41qTOc4KkOhZTivGiqHqQ4TPrBVeW5p7TxzhcXPNpOwVvN7ouan0oUSq9yfS5_kED96noDofXBnbcr-DdnpfwEiuc3N9nv6i-d78m8V1JZsqZZ-UXsk1tJX7-fJN4GstzMbMrg8ZZYqSE5Ij51lkpU8ME7INmqoR0ZxpMxZn5UeVNlRn6ykX5sEiv9V2zSl8RIpWEL0Pu0rQTbFzOQOO0vp76NZuNzHP0htGpzhjfbUt6Bh3JD1hKlVDV4pu5je7SbDY4enMcGNI2uKTID8bxpQ4IHYZ7rWSYEoRxQywgB8-yjYv0CUy0Ahqa0vmTricgNOsew4Sg2nftlNECQ3FFO1m6b3aYfW1Jg4RUDNucNoQ6U6c9cN_PWsLB3FOKapeg12sMZ-i3qu7-y0Z9YEIe89Qss1Db3BHbWPK_8um--uJYv9MSmcaqQNXc4xnxOOj-NLEkK9sDF-Zyy_NwwFl-tqXHgSVujnTqmQt6HoxcMIiXyTdG1f5bsQbG7JTvSOPUoek4IItg=w2112-h1224-no">
-					<img style="width: 95%" src="https://lh3.googleusercontent.com/Q1DJ-zUarMQCQjhzWRHrkHMcVszx6fGBxto92WTGZ6uMuQnGPS0tbk9ygvzaXIqPifzfzEBfxPTpJJ_RdeJMrvXsnOyaJvCfN4lTYulWBLaHhm5dq65ZhPcCVqaD0QKXVvy-Ris_PCC3koIK53UicdQ4OdPZD1bYRq5PBCQspgfUgzDmspKMHdGhOus7r-Bbju8oUD-5u5zsFEMBbL62Dz7rK5IkmHHguE7SrDB1RWd3fh5WnoozNUmdcaR81xcvWDadBggyEQUejuB57nBqrLecSjX7QPU9PvD5KR0qL2Jh3-pp3QXyuJ16-F3BcgEY5vbp4wuznrIaEfs4n8XOaK5Qd_jBgyS28hR4K3UR-OMEI1CaeifMPVY0Yrfndue91FdAXNWduhiNeme8HgHQBXrCkX65BkIa4XdpQQ1hT62T_PqVCVnx3sOiHjzfhhanmfpqd9R0xI1HMh1cwgte3lS2XHV6_0fc25NUvFUXbT4aOC7mOiSYQceIiNbqlcJHSD4QVgaW096LbXeH3HP4ttIFLeebRNBPAZ0Us4DF_jd_gckqLzs5Jfjg-p0N2409w6hgDEgQ8THeClc7LfythjdXh87KM8BV6-5GZOkux8evm3nU8BucGXjd3fnFZFxqsLv6ZbuEtQFnoaklNxJ9ymVbYl1HAno3nYcW02Beag=w2302-h1136-no">
-
-					<p>Click <a href="https://vast-reef-98615.herokuapp.com/">here</a> to view a deployed version of the project. </p>
-
-					<p>NOTE: Texting through Twilio and the Heroku Scheduler on the deployed version have been turned off in order to refrain from accruing charges.</p>
+				<div class="flex-item flex-item-3">
+					<div class="overlay">
+						<a href="https://github.com/JSumulong/remindr"></a>
+						<h2>Remindr</h2>
+						<p>This is a web app that allows users to store a list of contacts and schedule reminders to be sent to a contact or a group of contacts on one's contact list via text messages. The reminders may be recurring and users can specify the number of times and frequency at which the reminder can be sent.</p>
+					</div>
 				</div>
 			</div>
-			<div class="flex flex3">
-				<div class="flex-inner-title">
-					<h3>Tutorials</h3>
-				</div>
-				<div class="flex-inner-body">
-					<h4>Here is a list of tutorials that I have worked through and found helpful:</h4>
-					<ul>
-						<li><a href="https://javascript30.com/">JavaScript30 (Free)</a></li>
-						<p>If you're going to be a web developer, you've gotta learn JavaScript. With so many JavaScript tools, libraries, and frameworks floating around it's easy to get overwhelmed. But before you pull your hair out trying to keep up with the latest and greatest that the JavaScript community has to offer, you should learn some plain ol vanilla JavaScript</p>
-						<li><a href="https://frontendmasters.com/workshops/react-intro/">Complete Introduction to React (Paid)</a></li>
-						<p>React is pretty popular and if you're not familiar with it, this is a solid intro. It's not for the feint of heart, though. Implicit in the 'complete' introduction to React is a handful of pretty popular tools that are often paired with React such as: Redux, JSX, Babel, Webpack, React Router, and some tools for testing as well. It ain't free, but it's a pretty meaty course and you'll most likely find yourself having to review the material just to take it all in. Be warned!</p>
-						<li><a href="http://flexboxfroggy.com/">Flexbox Froggy! (Free)</a></li>
-						<p>CSS can be fun. Don't believe me? Try this quick flexbox tutorial and bring the froggies home while picking up a new skill or flexing some CSS muscle.</p>
-						<li><a href="https://www.youtube.com/watch?v=k7-N8R0-KY4">FunFunFun Recursion (Free)</a></li>
-						<p>Recursion can be confusing. This is a great video that explains the basics of how to approach thinking recursively and how it might be useful when solving problems. Oh yeah, and it's short. Take 15 minutes and invest in thinking recursively. Also, this video is part of a series that I would also recommend about functional programming.</p>
-					</ul>
-					<p>Do you know of any tutorials worth recommending? I'd love to hear from you. Shoot me an email at sumulong.jon@gmail.com</p>
-				</div>
+		</div>
+		<div id="container-four">
+			<h1><a href="https://github.com/JSumulong">GitHub</a> | <a href="https://www.linkedin.com/in/jsumulong/">LinkedIn</a></h1>
+		</div>
+		<div id="container-five">
+			<div>
+				<h1><b>Helpful Resources</b></h1>
 			</div>
-			<div class="flex flex4">
-				<div class="flex-inner-title">
-					<h3>Reading</h3>
+			<div class="resource-flex">
+				<div class="flex-item flex-item-1">
+					<a href="https://javascript30.com/">JavaScript30 (Free Tutorial)</a>
+					<p>If you're going to be a web developer, you've gotta learn JavaScript. With so many JavaScript tools, libraries, and frameworks floating around it's easy to get overwhelmed. But before you pull your hair out trying to keep up with the latest and greatest that the JavaScript community has to offer, you should learn some plain ol vanilla JavaScript</p>
 				</div>
-				<div class="flex-inner-body">
-					<h4>Articles, blogs, and books - here are a couple of worthwhile reads:</h4>
-					<ul>
-						<li><a href="https://techbeacon.com/agility-beyond-history%E2%80%94-legacy%E2%80%94-agile-development">To Agility and Beyond: The History - and Legacy - of Agile Development</a></li>
-						<p>Agile development is almost ubiquitous these days. Read about early development methodologies and how the dominant paradigm has shifted in the relatively short history of computer programming.</p>
-						<li><a href="http://www.poodr.com/">Practical Object Oriented Design in Ruby</a></li>
-						<p>This is a great introduction to Object Oriented Design and because it's written in Ruby, it's even beautiful to read and easy to follow along. This book takes a practical approach to OO, so it focuses more on the <em>how</em>, than the why.</p>
-						<li><a href="https://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/">10 Essential Sublime Text Plugins for Full-Stack Developers</a></li>
-						<p>If you use Sublime, here are 10 handy plugins that you should check out.</p>
-					</ul>
+				<div class="flex-item flex-item-2">
+					<a href="http://flexboxfroggy.com/">Flexbox Froggy! (Free Tutorial)</a>
+					<p>CSS can be fun. Don't believe me? Try this quick flexbox tutorial and bring the froggies home while picking up a new skill or flexing some CSS muscle.</p>
+					<p>#ImFlexyAndIKnowIt</p>
+					<p>#lillyPadSanctuary</p>
+					<p>#bringThemHome</p>
+					<p>#greenButNotMean</p>
+					<p>#noButThatLastOneIsSeriouslyTough</p>
+				</div>
+				<div class="flex-item flex-item-3">
+					<a href="https://techbeacon.com/agility-beyond-history%E2%80%94-legacy%E2%80%94-agile-development">To Agility and Beyond (Article)</a>
+					<p>Agile development is almost ubiquitous these days. If you're a developer, you've heard of it, you've used it, and whether you love it or hate it, it has a pretty interesting history. Why not read up on early development methodologies and how the dominant paradigm has shifted in the relatively short history of computer programming?</p>
+				</div>
+				<div class="flex-item flex-item-4">
+					<a href="https://frontendmasters.com/workshops/react-intro/">Complete Introduction to React (Paid)</a>
+					<p>React is pretty popular and if you're not familiar with it, this is a solid intro, but it's not for the feint of heart. Implicit in the 'complete' introduction to React is a handful of pretty popular tools that are often paired with React such as: Redux, JSX, Babel, Webpack, React Router, Jest, and so on. It ain't free, but it's a pretty meaty course and you'll most likely find yourself having to review the material just to take it all in. Be warned!</p>
+				</div>
+				<div class="flex-item flex-item-5">
+					<a href="https://www.youtube.com/watch?v=k7-N8R0-KY4">FunFunFun Recursion (Free Video Tutorial)</a>
+					<p>Recursion can be confusing. This is a great video that explains the basics of how to approach thinking recursively and how it might be useful when solving problems. Oh yeah, and it's short. Take 15 minutes and invest in thinking recursively. Also, this video is part of a series that I would also recommend about functional programming.</p>
+				</div>
+				<div class="flex-item flex-item-6">
+					<a href="http://www.poodr.com/">Practical Object Oriented Design in Ruby</a>
+					<p>This is a great introduction to Object Oriented Design and because it's written in Ruby, it's even beautiful to read and easy to follow along. This book takes a practical approach to OO, so it focuses more on the <em>how</em>, than the why.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="javascript.js"></script>
+	<script src="javascript.js"></script>
 </body>
 </html>
