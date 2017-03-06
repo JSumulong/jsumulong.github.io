@@ -13,3 +13,36 @@
 .container-one h1 {
 	font-size: 50px;
 }
+
+@media all and (max-width: 770px) {
+
+	.container-one {
+		height: 400px;
+		background-size: contain;
+	}
+
+	.container-one .media {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 605px) {
+
+	.container-one {
+		background-size: cover;
+	}
+
+}
+
+@media all and (max-width: 540px) {
+
+	.container-one {
+		height: 250px;
+	}
+
+  .container-one .media {
+    font-size: 20px;
+  }
+
+}
+

@@ -5,7 +5,7 @@ class ContainerOne extends Component {
 	render() {
 		return (
 		  <div className="container-one">
-	      <h1>Jon Sumulong | Web Developer</h1>
+	      <h1 className="media">Jon Sumulong | Web Developer</h1>
 	    </div>
 		)
 	}

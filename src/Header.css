@@ -7,3 +7,12 @@
 .navbar .container {
 	margin-left: 0;
 }
+
+@media all and (max-width: 770px) {
+
+  .navbar-custom {
+    display: none;
+  }
+
+}
+

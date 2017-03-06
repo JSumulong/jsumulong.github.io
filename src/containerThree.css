@@ -17,12 +17,11 @@
 
 .container-three .inner-flex {
 	display: flex;
-	justify-content: center;
-	/*flex-wrap: wrap;*/
+	justify-content: space-around;
 }
 
 .container-three .flex-item {
-	width: 28%;
+	width: 400px;
 	height: 370px;
 	overflow: hidden;
 	color: white;

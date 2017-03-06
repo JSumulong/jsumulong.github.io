@@ -10,6 +10,7 @@
 
 .container-two h1 {
 	margin: 0;
+	padding-bottom: 40px;
 }
 
 .container-AboutMe {
@@ -20,3 +21,22 @@
 	width: 65%;
 	height: auto;
 }
+
+@media all and (max-width: 770px) {
+
+	.container-two {
+		height: 550px;
+		background-size: contain;
+	}
+
+	.container-two .h1-media {
+    font-size: 30px;
+  }
+
+	.container-two .p-media {
+    font-size: 16px;
+  }
+
+}
+
+
