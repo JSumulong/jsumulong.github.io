@@ -36,9 +36,17 @@
 
 @media all and (max-width: 540px) {
 
-	.container-one {
+/*	.container-one {
 		height: 250px;
-	}
+	}*/
+
+  .container-one .media {
+    font-size: 30px;
+  }
+
+}
+
+@media all and (max-width: 450px) {
 
   .container-one .media {
     font-size: 20px;
