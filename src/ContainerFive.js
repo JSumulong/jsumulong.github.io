@@ -16,11 +16,7 @@ class ContainerFive extends Component {
 					<div className="flex-item flex-item-2">
 						<a href="http://flexboxfroggy.com/">Flexbox Froggy! (Free Tutorial)</a>
 						<p>CSS can be fun. Don't believe me? Try this quick flexbox tutorial and bring the froggies home while picking up a new skill or flexing some CSS muscle.</p>
-						<p>#ImFlexyAndIKnowIt</p>
-						<p>#lillyPadSanctuary</p>
-						<p>#bringThemHome</p>
-						<p>#greenButNotMean</p>
-						<p>#noButThatLastOneIsSeriouslyTough</p>
+						<p>#ImFlexyAndIKnowIt #lillyPadSanctuary #bringThemHome #greenButNotMean #noButThatLastOneIsSeriouslyTough</p>
 					</div>
 					<div className="flex-item flex-item-3">
 						<a href="https://techbeacon.com/agility-beyond-history%E2%80%94-legacy%E2%80%94-agile-development">To Agility and Beyond (Article)</a>

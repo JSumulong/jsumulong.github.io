@@ -26,7 +26,7 @@
 }
 
 .container-five .resource-flex .flex-item {
-	width: 30%;
+	width: 400px;
 	height: 300px;
 	margin-left: 0.25%;
 	margin-right: 0.25%;
@@ -39,4 +39,48 @@
 
 .container-five .flex-item a {
 	font-size: 18px;
+}
+
+@media all and (max-width: 1218px) {
+	.container-five {
+		height: 1200px;
+	}
+}
+
+@media all and (max-width: 880px) {
+	.container-five h1 {
+		font-size: 45px;
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 810px) {
+	.container-five {
+		height: 2050px;
+	}
+}
+
+@media all and (max-width: 615px) {
+	.container-five h1 {
+		font-size: 45px;
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 530px) {
+	.container-five h1 {
+		font-size: 40px;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.container-five h1 {
+		font-size: 34px;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.container-five h1 {
+		font-size: 28px;
+	}
 }
