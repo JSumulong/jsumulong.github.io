@@ -20,5 +20,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jsumulong.github.io/"
+  "homepage": "https://jsumulong.github.io/my-app"
 }
