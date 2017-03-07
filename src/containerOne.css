@@ -1,0 +1,56 @@
+.container-one {
+	height: 800px;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-one h1 {
+	font-size: 50px;
+}
+
+@media all and (max-width: 770px) {
+
+	.container-one {
+		height: 400px;
+		background-size: contain;
+	}
+
+	.container-one .media {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 605px) {
+
+	.container-one {
+		background-size: cover;
+	}
+
+}
+
+@media all and (max-width: 540px) {
+
+/*	.container-one {
+		height: 250px;
+	}*/
+
+  .container-one .media {
+    font-size: 30px;
+  }
+
+}
+
+@media all and (max-width: 450px) {
+
+  .container-one .media {
+    font-size: 20px;
+  }
+
+}
+
