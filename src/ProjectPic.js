@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 
 class ProjectPic extends Component {
 	render() {
-		const flexItemStyle = {
+		// const flexItemStyle = {
 
-		}
-		const overlayStyle = {
+		// }
+		// const overlayStyle = {
 
-		}
-		const overlayHoverStyle = {
+		// }
+		// const overlayHoverStyle = {
 
-		}
-		const customH2 = {
+		// }
+		// const customH2 = {
 
-		}
-		const customP = {
+		// }
+		// const customP = {
 			
-		}
+		// }
 		return (
 			<div className="flex-item flex-item-1">
 				<div className="overlay">
