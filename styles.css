@@ -82,13 +82,111 @@ html body {
 	margin: 0;
 }
 
-.div-container-65 {
+.container-AboutMe {
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
 	padding: 2.5%;
 	font-size: 20px;
 	width: 65%;
 	height: auto;
+}
+
+@media all and (max-width: 860px) {
+
+	.container-two {
+		height: 700px;
+	}
+
+	.container-AboutMe {
+		width: 75%;
+	}
+
+	.container-two .p-media {
+    font-size: 18px;
+  }
+
+}
+
+@media all and (max-width: 770px) {
+
+	#container-two {
+		height: 550px;
+	}
+
+	.container-AboutMe {
+		width: 80%;
+		border: none;
+	}
+
+	#container-two .h1-media {
+    font-size: 28px;
+  }
+
+	.container-two .p-media {
+    font-size: 16px;
+  }
+
+}
+
+@media all and (max-width: 630px) {
+
+	.container-AboutMe {
+		width: 85%;
+	}
+
+	#container-two .h1-media {
+    font-size: 28px;
+  }
+
+	#container-two .p-media {
+    font-size: 16px;
+  }
+
+}
+
+@media all and (max-width: 585px) {
+
+	#container-two {
+		height: 470px;
+	}
+
+	#container-AboutMe {
+		border: none;
+		width: 95%;
+	}
+
+	#container-two .h1-media {
+		padding-bottom: 5px;
+  }
+
+}
+
+@media all and (max-width: 520px) {
+
+	.container-AboutMe {
+		width: 80%;
+	}
+
+	#container-two .h1-media {
+    font-size: 18px;
+  }
+
+	#container-two .p-media {
+    font-size: 13px;
+  }
+
+}
+
+@media all and (max-width: 470px) {
+
+	.container-AboutMe {
+		width: 95%;
+	}
+
+	#container-two .p-media {
+    font-size: 12px;
+  }
+
 }
 
 #container-three {
