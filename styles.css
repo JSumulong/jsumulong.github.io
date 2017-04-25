@@ -232,6 +232,82 @@ html body {
 	background-attachment: fixed;
 }
 
+#container-three .project-display-wrapper {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#container-three .project-display-wrapper.active {
+	display: block;
+}
+
+#container-three .projects-display-container {
+	width: 80%;
+	height: 60%;
+	background-color: whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+#container-three .select-project-container {
+	border-right: 1px solid black;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2%;
+	padding-right: 3%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-three .select-project-container ul {
+	list-style: none;
+	font-size: 20px;
+	line-height: 400%;
+}
+
+#container-three .describe-project-container {
+	flex: 5;
+/*	width: 100%;
+	height: auto;*/
+}
+
+#container-three .describe-project-container .describe-project-flex {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.describe-project-container .describe-project-flex .project-images-container {
+	flex: 3;
+	border: 1px solid black;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.describe-project-container .describe-project-flex .project-images-container img {
+	max-width: 80%;
+	max-height: 80%;
+	overflow: hidden;
+/*	height: 80%; There is a problem with this
+	width: 80%;*/
+	size: cover;
+}
+
+.describe-project-container .describe-project-flex .project-text-container {
+	flex: 1;
+	border: 1px solid black;
+	width: 100%;
+	height: auto;
+}
+
+/*kljkljjkjlk;;jjkljj;jkljlkj;jjkl÷*/
+
 #container-three h1 {
 	margin-bottom: 10%;
 	text-align: center;
