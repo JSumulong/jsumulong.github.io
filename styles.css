@@ -245,14 +245,14 @@ html body {
 #container-three .projects-display-container {
 	width: 80%;
 	height: 60%;
-	background-color: whitesmoke;
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 }
 
 #container-three .select-project-container {
-	border-right: 1px solid black;
+	/*border-right: 1px solid black;  BORDER*/
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 2%;
@@ -284,24 +284,33 @@ html body {
 
 .describe-project-container .describe-project-flex .project-images-container {
 	flex: 3;
-	border: 1px solid black;
+	/*border: 1px solid black;  BORDER */
 	width: 100%;
 	height: auto;
 	display: flex;
 }
 
-.describe-project-container .describe-project-flex .project-images-container img {
-	max-width: 80%;
-	max-height: 80%;
-	overflow: hidden;
-/*	height: 80%; There is a problem with this
-	width: 80%;*/
-	size: cover;
+.describe-project-container .resume-bot-container .resume-screenshot-background {
+	width: 100%;
+	height: auto;
+	background-image: url("http://gdurl.com/l0yP");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.describe-project-container .resume-bot-container .resume-code-background {
+	width: 100%;
+	height: auto;
+	background-image: url("http://gdurl.com/PmLF");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
 }
 
 .describe-project-container .describe-project-flex .project-text-container {
 	flex: 1;
-	border: 1px solid black;
+	/*border: 1px solid black;  BORDER */
 	width: 100%;
 	height: auto;
 }
